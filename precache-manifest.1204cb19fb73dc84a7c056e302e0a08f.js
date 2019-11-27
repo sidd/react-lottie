@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6d8e1bfc6c9f8e823040b7d8b70ddf7a",
+    "revision": "131819500319d70327378bde1283acdf",
     "url": "/react-lottie/index.html"
   },
   {
-    "revision": "1eae1e7365d7cec3b3c2",
-    "url": "/react-lottie/static/css/main.d9c10ee1.chunk.css"
+    "revision": "e43457e0e234a1ecee4e",
+    "url": "/react-lottie/static/css/main.fa52da3a.chunk.css"
   },
   {
     "revision": "691ede518e7872ffee33",
     "url": "/react-lottie/static/js/2.ab3ce326.chunk.js"
   },
   {
-    "revision": "1eae1e7365d7cec3b3c2",
+    "revision": "e43457e0e234a1ecee4e",
     "url": "/react-lottie/static/js/main.7c3a1387.chunk.js"
   },
   {
