@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "218c5eaf00c809bdb1f68b2600aa22c2",
+    "revision": "7fa4d6b4ffb29b344a0803a1ab7876a4",
     "url": "/react-lottie/index.html"
   },
   {
