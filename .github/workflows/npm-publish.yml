@@ -10,13 +10,14 @@ jobs:
           tag-prefix: 'release'
       - uses: actions/checkout@v1
       - name: Set up Node.js
-      - uses: actions/setup-node@v1
+        uses: actions/setup-node@v1
         with:
           node-version: 12.13.0
       - run: npm lint:check
       - run: npm run build
       - run: npm install
       - run: npm test
-      - uses: JS-DevTools/npm-publish@v1
+      - name: JS-DevTools/npm-publish@v1
+        uses: JS-DevTools/npm-publish@v1
         with:
           token: ${{ secrets.NPM_TOKEN }}
