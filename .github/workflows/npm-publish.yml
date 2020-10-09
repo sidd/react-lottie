@@ -14,7 +14,7 @@ jobs:
         with:
           node-version: 12.13.0
       - run: npm install
-      - run: npm run lint:check
+      # - run: npm run lint:check #TODO: enable after all mrs reviewed
       - run: npm run build
       - name: JS-DevTools/npm-publish@v1
         uses: JS-DevTools/npm-publish@v1
