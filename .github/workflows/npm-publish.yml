@@ -19,4 +19,5 @@ jobs:
       - name: JS-DevTools/npm-publish@v1
         uses: JS-DevTools/npm-publish@v1
         with:
+          access: 'public'
           token: ${{ secrets.NPM_TOKEN }}
