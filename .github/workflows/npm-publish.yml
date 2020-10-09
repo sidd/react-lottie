@@ -13,10 +13,9 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 12.13.0
-      - run: npm lint:check
-      - run: npm run build
       - run: npm install
-      - run: npm test
+      - run: npm run lint:check
+      - run: npm run build
       - name: JS-DevTools/npm-publish@v1
         uses: JS-DevTools/npm-publish@v1
         with:
