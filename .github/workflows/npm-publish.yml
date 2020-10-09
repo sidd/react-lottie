@@ -20,5 +20,5 @@ jobs:
         uses: JS-DevTools/npm-publish@v1
         with:
           access: 'public'
-          dryRun: true
+          dry-run: true
           token: ${{ secrets.NPM_TOKEN }}
