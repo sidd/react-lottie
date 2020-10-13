@@ -16,8 +16,11 @@ jobs:
       - run: npm install
       # - run: npm run lint:check #TODO: enable after all mrs reviewed
       - run: npm run build
-      - name: JS-DevTools/npm-publish@v1
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          access: 'public'
-          token: ${{ secrets.NPM_TOKEN }}
+      # - name: JS-DevTools/npm-publish@v1
+      #   uses: JS-DevTools/npm-publish@v1
+      #   with:
+      #     access: 'public'
+      #     token: ${{ secrets.NPM_TOKEN }}
+      - run: npm publish --access public
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
